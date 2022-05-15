@@ -3,7 +3,7 @@ This project is simply predicting the Close price using Sentiment analysis.
 This project is comprised of 3 main components: Scrapping the data, Training the model on predicting sentiment (Bullish or bearish), and predicting the close price with features of previous close prices and average sentiment analysis per day. 
 The data is scrapped from StockTwits and yahoo finance websites. 
 
-## Explanation for the project:
+## Explanation of the project:
 
 **After** we trained the sentiment analyzer model on the dataset we had, we found that it was labeled in a biased way, and we got a very low accuracy (50%) after using its glove embedding to train a few models (Logistic Regression-  Naive Bayes- LSTM). That's why we tried the data we have been scraping for two days, with each tweet automatically labeled containing its own sentiment (bearish or bullish),  and by training multiple models, we could get an accuracy of 75%. The process includes cleaning the tweets (Stop Words Removal- Stock names removal- Handling special characters, links, emotions, and hashtags- stemming and Lemmatization- Tokenization) followed by applying a pre-trained Glove embedding model on each tweet to be used in the training models (Naive Bayes- Sklearn MLP Classifier).
 
