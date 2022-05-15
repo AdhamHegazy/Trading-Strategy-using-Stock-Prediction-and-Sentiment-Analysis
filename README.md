@@ -26,5 +26,5 @@ You can find the notebooks which include the preprocessing and training of the m
 
 
 ### Stock Price Prediction Notebooks: 
-	You can find thorough codes and implementation for the pre-processing, training, and prediction for tomorrow's close price using LSTM. Then, there is a portfolio to advise the investor whether he/she can buy, sell, or reject. 
+You can find thorough codes and implementation for the pre-processing, training, and prediction for tomorrow's close price using LSTM. Then, there is a portfolio to advise the investor whether he/she can buy, sell, or reject. 
 
